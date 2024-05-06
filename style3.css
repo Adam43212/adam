@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color:#1B1A55;
+
+
+
+}
+.header{
+    position: relative; 
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9cf581;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 40px;
+}
+a:hover{
+    color: #4615f5;
+}
+a.logo{
+    color: rgb(255, 255, 255);
+}
+span{
+    color: black;
+}
+.main{
+    color: #fffefe;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 200px;
+}
+.aa2{
+    color: #9cf581;
+}
+p{
+    color: antiquewhite;
+    font-size: 40px;
+}
+p .aa2{
+    line-height: 1.8;
+}
+button:hover{
+    color: #e7e5e5;
+    cursor: pointer;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 20px;
+    margin: 10px;
+}
+.adam1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: beige;
+    padding: 30px;
+}
+#fc{
+    color: #4615f5;
+}
+#in{
+    color: #f35a79;
+}
+#yu{
+    color: red;
+}
+h1{
+    background-color: azure;
+}
+.adam2{
+    background-color: azure;
+    color: #000;
+    font-size: 30px;
+}
+#social{
+    text-align: center;
+}
